@@ -57,7 +57,7 @@ app.use(formidableMiddleware({
   encoding: 'utf-8',
   uploadDir: '/my/dir',
   multiples: true, // req.files to be arrays of files
-});
+}));
 ```
 
 For the detail, please refer to the
